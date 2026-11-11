@@ -1,0 +1,187 @@
+{
+ "n_total": 137,
+ "media_geral": 4.6204,
+ "min": 0,
+ "max": 8,
+ "n_grupos": {
+  "Não": 81,
+  "Talvez": 39,
+  "Sim": 17
+ },
+ "desc": {
+  "Não": {
+   "n": 81,
+   "media": 4.8395,
+   "dp": 1.8605,
+   "mediana": 5.0,
+   "min": 0,
+   "max": 8,
+   "q1": 4.0,
+   "q3": 6.0
+  },
+  "Sim": {
+   "n": 17,
+   "media": 4.8235,
+   "dp": 1.8787,
+   "mediana": 5.0,
+   "min": 1,
+   "max": 7,
+   "q1": 4.0,
+   "q3": 6.0
+  },
+  "Talvez": {
+   "n": 39,
+   "media": 4.0769,
+   "dp": 2.0051,
+   "mediana": 4.0,
+   "min": 0,
+   "max": 8,
+   "q1": 3.0,
+   "q3": 5.5
+  }
+ },
+ "n_confirmatorio": 98,
+ "n_excluidos_talvez": 39,
+ "shapiro": {
+  "Sim": [
+   0.8789026442450419,
+   0.030522624424178073
+  ],
+  "Não": [
+   0.958680716060617,
+   0.010497935769024136
+  ]
+ },
+ "levene": [
+  0.08311688311688291,
+  0.7737386581117071
+ ],
+ "welch": {
+  "t": -0.031931431073029086,
+  "df": 23.069071636624855,
+  "p_unilateral": 0.5125993014248542,
+  "p_bilateral": 0.9748013971502916,
+  "diff": -0.015976761074800727,
+  "se": 0.5003459142893071,
+  "ic95_bilateral": [
+   -1.0508496890244348,
+   1.0188961668748333
+  ],
+  "lim_inf_ic_unilateral95": -0.873397724086229,
+  "d": -0.00857337599930152,
+  "g": -0.008506221618105946,
+  "d_ic_boot": [
+   -0.5363555715762882,
+   0.517024888874862
+  ],
+  "d_ic_normal": [
+   -0.5314548843130614,
+   0.5143081323144584
+  ],
+  "media_sim": 4.823529411764706,
+  "media_nao": 4.839506172839506,
+  "dp_sim": 1.8786728732554485,
+  "dp_nao": 1.8604891166267055,
+  "dp_pooled": 1.8635320643935795
+ },
+ "mw": {
+  "U": 713.5,
+  "p_unilateral": 0.40779313675648665,
+  "p_bilateral": 0.8155862735129733,
+  "prob_superioridade": 0.5181554103122731,
+  "rank_biserial": 0.03631082062454616,
+  "mediana_sim": 5.0,
+  "mediana_nao": 5.0
+ },
+ "d_minimo_detectavel_80pct": 0.6633307653347655,
+ "kw": [
+  4.064917573284392,
+  0.13101299180136367
+ ],
+ "pares_exploratorios": {
+  "Sim×Não": {
+   "p_bruto": 0.8155862735129733,
+   "p_holm": 0.8155862735129733
+  },
+  "Sim×Talvez": {
+   "p_bruto": 0.1596532072803455,
+   "p_holm": 0.319306414560691
+  },
+  "Não×Talvez": {
+   "p_bruto": 0.05669511439110676,
+   "p_holm": 0.1700853431733203
+  }
+ },
+ "media_talvez": 4.076923076923077,
+ "dp_talvez": 2.0050543421512934,
+ "contexto": {
+  "Q4": {
+   "Não": {
+    "1–2 years": 5,
+    "3–5 years": 29,
+    "6–10 years": 23,
+    "Less than 1 year": 1,
+    "More than 10 years": 23
+   },
+   "Sim": {
+    "1–2 years": 1,
+    "3–5 years": 7,
+    "6–10 years": 5,
+    "Less than 1 year": 0,
+    "More than 10 years": 4
+   },
+   "Talvez": {
+    "1–2 years": 7,
+    "3–5 years": 9,
+    "6–10 years": 16,
+    "Less than 1 year": 0,
+    "More than 10 years": 7
+   }
+  },
+  "Q5": {
+   "Não": {
+    "1–2 years": 8,
+    "3–5 years": 37,
+    "6–10 years": 20,
+    "Less than 1 year": 2,
+    "More than 10 years": 14
+   },
+   "Sim": {
+    "1–2 years": 3,
+    "3–5 years": 9,
+    "6–10 years": 4,
+    "Less than 1 year": 0,
+    "More than 10 years": 1
+   },
+   "Talvez": {
+    "1–2 years": 6,
+    "3–5 years": 17,
+    "6–10 years": 8,
+    "Less than 1 year": 4,
+    "More than 10 years": 4
+   }
+  }
+ },
+ "freq_recursos": {
+  "Sim": {
+   "Secure communications": 10,
+   "Two-factor authentication": 6,
+   "Data encryption": 12,
+   "Secure storage of information": 12,
+   "App hardening/obfuscation": 6,
+   "Permissions": 15,
+   "Authentication": 14,
+   "Biometric Authentication": 7
+  },
+  "Não": {
+   "Secure communications": 47,
+   "Two-factor authentication": 31,
+   "Data encryption": 53,
+   "Secure storage of information": 56,
+   "App hardening/obfuscation": 37,
+   "Permissions": 58,
+   "Authentication": 70,
+   "Biometric Authentication": 40
+  }
+ }
+}
